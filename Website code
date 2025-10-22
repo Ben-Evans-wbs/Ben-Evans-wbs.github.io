@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benjamin Evans – Economics Student & Future Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{
+      --accent:#0057b8;
+      --bg:#ffffff;
+      --text:#222;
+      --light:#f5f7fa;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+    body{background:var(--bg);color:var(--text);line-height:1.6;}
+    header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:3rem 8vw;background:var(--light);}
+    header img{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);}
+    header .intro h1{font-size:2.2rem;margin-bottom:.3rem;}
+    header .intro p{font-size:1.1rem;color:#555;}
+    nav{margin-top:1.5rem;}
+    nav a{color:var(--accent);margin-right:1.2rem;font-weight:600;text-decoration:none;}
+    nav a:hover{text-decoration:underline;}
+    section{padding:3rem 8vw;max-width:900px;margin:auto;}
+    h2{margin-bottom:1.2rem;color:var(--accent);}
+    .job, .school{margin-bottom:1.8rem;}
+    .job .title, .school .degree{font-weight:700;}
+    .job .meta, .school .meta{color:#555;font-size:.95rem;margin-bottom:.4rem;}
+    ul{margin-left:1.2rem;}
+    footer{background:var(--light);padding:2.5rem 8vw;text-align:center;font-size:.9rem;}
+    @media(max-width:600px){
+      header{flex-direction:column;text-align:center;}
+      header img{margin-bottom:1.2rem;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="headshot1.jpg" alt="Benjamin Evans">
+  <div class="intro">
+    <h1>Benjamin Evans</h1>
+    <p>Economics Student • Newcastle University<br>Lifeguard • Bar Professional • Senior Prefect</p>
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#extracurriculars">Extracurriculars</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="education">
+  <h2>Education</h2>
+
+  <div class="school">
+    <div class="degree">BSc Economics (Expected 1<sup>st</sup> Class Honours)</div>
+    <div class="meta">Newcastle University | Sep 2023 – Jun 2026</div>
+  </div>
+
+  <div class="school">
+    <div class="degree">A-Levels: Economics A* • Mathematics A • History A</div>
+    <div class="meta">The Liverpool Bluecoat School | Sep 2021 – Jun 2023</div>
+  </div>
+
+  <div class="school">
+    <div class="degree">GCSEs: 1(9) 9(8s) 1(7) incl. Maths 9 & English 8</div>
+    <div class="meta">The Liverpool Bluecoat School | Sep 2016 – Jun 2021</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="title">Bar Staff & Front of House</div>
+    <div class="meta">The Kissing Gate Bar & Eatery (SSP) | Jul – Sep 2024</div>
+    <ul>
+      <li>Delivered high-volume, high-quality service; resolved customer issues swiftly.</li>
+      <li>Regularly assigned night shifts—demonstrated resilience and consistency under pressure.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="title">Lifeguard / Swim Teacher</div>
+    <div class="meta">Swimsound Swimming School | Sep 2021 – Jun 2023</div>
+    <ul>
+      <li>Supervised up to 30 children aged 5-18 per session; zero safety incidents.</li>
+      <li>Assisted instructors in lesson delivery, sharpening communication and teamwork.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="title">Reception Support</div>
+    <div class="meta">The Elms Medical Centre, NHS | Jul – Aug 2021</div>
+    <ul>
+      <li>Cleared COVID-era data backlog, easing workload of senior reception staff.</li>
+      <li>Quickly mastered new medical-filing software; maintained 100 % accuracy.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="extracurriculars">
+  <h2>Extracurriculars</h2>
+
+  <div class="job">
+    <div class="title">Assistant Head of School & Head Prefect of Economics Society</div>
+    <div class="meta">Liverpool Bluecoat School | Sep 2021 – Jun 2023</div>
+    <ul>
+      <li>Selected from 100+ applicants; organised whole-school disco (300+ attendees).</li>
+      <li>Arranged guest speakers and investment challenges for Economics Society.</li>
+    </ul>
+  </div>
+
+  <p>I also train Brazilian Jiu-Jitsu & MMA, run weekly, and recently completed an unofficial ultra-marathon around Newcastle.</p>
+  <img src="headshot2.jpg" alt="Ben in action" style="width:100%;max-width:400px;border-radius:8px;margin-top:1rem;">
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ben@webevans.co.uk">ben@webevans.co.uk</a><br>
+     Phone: <a href="tel:+447729148241">+44 7729 148241</a><br>
+     Location: Liverpool, United Kingdom</p>
+</section>
+
+<footer>
+  © 2025 Benjamin Evans – Built with ❤️ and GitHub Pages.
+</footer>
+
+</body>
+</html>
+
+----
+3.  Swap the photos
+•  Replace headshot1.jpg with your professional head-shot (circle crop, ≥ 500 × 500 px).
+•  Replace headshot2.jpg with a lifestyle/training shot (wide ratio, 1200 px wide looks crisp).
+----
+4.  Optional tweaks
+Goal	How
+Custom domain	GitHub Settings → Pages → add `benjaminevans.co.uk` & follow DNS instructions.
+Analytics	Paste your Google Analytics tag before `</head>`.
+Blog	Drop Markdown posts into `_posts` folder and enable Jekyll later—this page still works as your homepage.
+Enjoy your new site!
